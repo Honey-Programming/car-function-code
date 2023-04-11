@@ -21,4 +21,4 @@ A release is a stable version that is intended for production use. They will upd
 
 --------------------------------
 
-Thank you for reading this, you may 
+Thank you for reading this, you may proceed.
