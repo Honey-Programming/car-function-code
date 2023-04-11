@@ -44,7 +44,7 @@ class Car:
         if self.key_in:
             while True:
                 system = input('''Please enter "Forward", "Reverse", "Steer Left", "Steer Right", "Brakes", "Parking '
-                               'Brakes", "Toggle Abs", "Shift Gears" or "Car '
+                               'Brakes", "Toggle ABS", "Shift Gears" or "Car '
                                'Off": ''')
 
                 if system == "Forward":
