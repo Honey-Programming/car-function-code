@@ -52,14 +52,14 @@ class Car:
                         self.drive_state = system
                         print('Moving forward')
                     else:
-                        print("You cannot move forwards in this gear")
+                        print("You cannot move forward in this gear")
 
                 elif system == "Reverse":
                     if self.gear == "R":
                         self.drive_state = system
                         print("Moving backwards")
                     else:
-                        print("You cannot move backwards in this gear")
+                        print("You cannot move backward in this gear")
 
                 elif system == "Steer Left":
                     self.drive_state = "L"
@@ -72,7 +72,7 @@ class Car:
                 elif system == "Brakes":
                     if self.gear == "R" or self.gear == "D" or self.gear == "N":
                         self.drive_state = system
-                        print('Stopping')
+                        print('Slowing Down')
                     else:
                         print('You cannot brake in this gear')
 
