@@ -93,7 +93,6 @@ class Car:
                     self.drive_state = "ABS Toggle"
                     print('ABS Toggled')
 
-
                 elif system == "Shift Gears":
                     gear_drive_changer = input('Enter the gear mode (P, N, D, R): ')
                     self.gear = gear_drive_changer
